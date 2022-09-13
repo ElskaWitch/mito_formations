@@ -1,5 +1,7 @@
 <?php
 session_start();
-// require_once("sql/selectAllFormateurs-sql.php");
-require("models/database.php");
+require("models/Formateur.class.php");
+$model = new Formateur();
+$formateurs = $model->getAll();
+
 require("view/formateurPage.php");
