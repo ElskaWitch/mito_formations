@@ -18,7 +18,7 @@
         <!-- main content -->
         <?= $content ?>
     </main>
-    <!-- footer -->
+    <!-- footer footer-->
     <?php include('partials/_footer.php') ?>
 </body>
 
